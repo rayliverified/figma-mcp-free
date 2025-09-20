@@ -1,0 +1,163 @@
+<svg viewBox="0 0 1080 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="300" fill="transparent"/>
+  
+  <!-- Title -->
+  <text x="540" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2f3542" text-anchor="middle">
+    🚀 5分で完了！figma-mcp-free セットアップフロー
+  </text>
+  
+  <!-- Conveyor Belt Background -->
+  <rect x="60" y="80" width="960" height="140" fill="#ddd6fe" rx="70"/>
+  <rect x="80" y="100" width="920" height="100" fill="#a29bfe" rx="50"/>
+  
+  <!-- Belt Pattern (dots to simulate movement) -->
+  <circle cx="120" cy="150" r="3" fill="#6c5ce7" opacity="0.7"/>
+  <circle cx="200" cy="150" r="3" fill="#6c5ce7" opacity="0.5"/>
+  <circle cx="280" cy="150" r="3" fill="#6c5ce7" opacity="0.8"/>
+  <circle cx="360" cy="150" r="3" fill="#6c5ce7" opacity="0.6"/>
+  <circle cx="440" cy="150" r="3" fill="#6c5ce7" opacity="0.9"/>
+  <circle cx="520" cy="150" r="3" fill="#6c5ce7" opacity="0.4"/>
+  <circle cx="600" cy="150" r="3" fill="#6c5ce7" opacity="0.7"/>
+  <circle cx="680" cy="150" r="3" fill="#6c5ce7" opacity="0.5"/>
+  <circle cx="760" cy="150" r="3" fill="#6c5ce7" opacity="0.8"/>
+  <circle cx="840" cy="150" r="3" fill="#6c5ce7" opacity="0.6"/>
+  <circle cx="920" cy="150" r="3" fill="#6c5ce7" opacity="0.9"/>
+  
+  <!-- Step 1: Token取得 -->
+  <rect x="100" y="60" width="140" height="120" fill="#ff7675" rx="12" stroke="#d63031" stroke-width="2"/>
+  <text x="170" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">
+    STEP 1
+  </text>
+  <text x="170" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+    🔑
+  </text>
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    Personal Access
+  </text>
+  <text x="170" y="145" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    Token 取得
+  </text>
+  <text x="170" y="165" font-family="Arial, sans-serif" font-size="10" fill="#fff5f5" text-anchor="middle">
+    Figma.com で1分
+  </text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 150 L 280 150" stroke="#2d3436" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: CLIセットアップ -->
+  <rect x="290" y="60" width="140" height="120" fill="#fd79a8" rx="12" stroke="#e84393" stroke-width="2"/>
+  <text x="360" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">
+    STEP 2
+  </text>
+  <text x="360" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+    ⚡
+  </text>
+  <text x="360" y="130" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    CLI セットアップ
+  </text>
+  <text x="360" y="145" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    npx init
+  </text>
+  <text x="360" y="165" font-family="Arial, sans-serif" font-size="10" fill="#fff5f5" text-anchor="middle">
+    自動設定で30秒
+  </text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 440 150 L 470 150" stroke="#2d3436" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: デザイントークン抽出 -->
+  <rect x="480" y="60" width="140" height="120" fill="#fdcb6e" rx="12" stroke="#e17055" stroke-width="2"/>
+  <text x="550" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">
+    STEP 3
+  </text>
+  <text x="550" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+    🎨
+  </text>
+  <text x="550" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    デザイントークン
+  </text>
+  <text x="550" y="140" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    抽出・変換
+  </text>
+  <text x="550" y="165" font-family="Arial, sans-serif" font-size="10" fill="#fff5f5" text-anchor="middle">
+    W3C標準で瞬時
+  </text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 630 150 L 660 150" stroke="#2d3436" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: コード生成 -->
+  <rect x="670" y="60" width="140" height="120" fill="#74b9ff" rx="12" stroke="#0984e3" stroke-width="2"/>
+  <text x="740" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">
+    STEP 4
+  </text>
+  <text x="740" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+    💻
+  </text>
+  <text x="740" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    コード生成
+  </text>
+  <text x="740" y="140" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    React/Vue等
+  </text>
+  <text x="740" y="165" font-family="Arial, sans-serif" font-size="10" fill="#fff5f5" text-anchor="middle">
+    TypeScript対応
+  </text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 820 150 L 850 150" stroke="#2d3436" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: AI連携 -->
+  <rect x="860" y="60" width="140" height="120" fill="#55a3ff" rx="12" stroke="#2d3436" stroke-width="2"/>
+  <text x="930" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">
+    STEP 5
+  </text>
+  <text x="930" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+    🤖
+  </text>
+  <text x="930" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    AI連携完了
+  </text>
+  <text x="930" y="140" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">
+    Claude/Cursor
+  </text>
+  <text x="930" y="165" font-family="Arial, sans-serif" font-size="10" fill="#fff5f5" text-anchor="middle">
+    自動化完成
+  </text>
+  
+  <!-- Time indicators -->
+  <text x="170" y="250" font-family="Arial, sans-serif" font-size="12" fill="#6c5ce7" font-weight="bold" text-anchor="middle">
+    1分
+  </text>
+  <text x="360" y="250" font-family="Arial, sans-serif" font-size="12" fill="#e84393" font-weight="bold" text-anchor="middle">
+    30秒
+  </text>
+  <text x="550" y="250" font-family="Arial, sans-serif" font-size="12" fill="#e17055" font-weight="bold" text-anchor="middle">
+    1分
+  </text>
+  <text x="740" y="250" font-family="Arial, sans-serif" font-size="12" fill="#0984e3" font-weight="bold" text-anchor="middle">
+    2分
+  </text>
+  <text x="930" y="250" font-family="Arial, sans-serif" font-size="12" fill="#2d3436" font-weight="bold" text-anchor="middle">
+    30秒
+  </text>
+  
+  <!-- Total time -->
+  <rect x="400" y="265" width="280" height="25" fill="#2f3542" rx="12"/>
+  <text x="540" y="282" font-family="Arial, sans-serif" font-size="14" fill="#ffa502" font-weight="bold" text-anchor="middle">
+    ⏱️ 合計 5分でDev Mode以上の機能が完成！
+  </text>
+  
+  <!-- Comparison note -->
+  <text x="540" y="45" font-family="Arial, sans-serif" font-size="12" fill="#636e72" text-anchor="middle">
+    vs. Figma公式: 課金手続き + アカウント設定 + デスクトップ版限定 = 約30分 + 月額$12〜
+  </text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#2d3436"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1080 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="600" fill="#fafafa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1080" height="80" fill="#1a1a1a"/>
+  <text x="540" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">
+    オープンソースラッピング商法 vs OSS解放運動
+  </text>
+  
+  <!-- Column Headers -->
+  <rect x="40" y="100" width="480" height="60" fill="#ff4757" rx="8"/>
+  <text x="280" y="140" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    Figma公式 (囲い込み)
+  </text>
+  
+  <rect x="560" y="100" width="480" height="60" fill="#2ed573" rx="8"/>
+  <text x="800" y="140" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">
+    figma-mcp-free (解放)
+  </text>
+  
+  <!-- Row 1: 基本技術 -->
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">基本技術</text>
+  <rect x="80" y="180" width="440" height="40" fill="#ffebee" stroke="#ff4757" stroke-width="2" rx="4"/>
+  <text x="300" y="205" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
+    MCP (無料のオープン規格) + Figma API
+  </text>
+  
+  <rect x="560" y="180" width="480" height="40" fill="#e8f5e8" stroke="#2ed573" stroke-width="2" rx="4"/>
+  <text x="800" y="205" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
+    MCP (無料のオープン規格) + Figma API
+  </text>
+  
+  <!-- Row 2: 料金 -->
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">料金</text>
+  <rect x="80" y="240" width="440" height="40" fill="#ffebee" stroke="#ff4757" stroke-width="2" rx="4"/>
+  <text x="300" y="265" font-family="Arial, sans-serif" font-size="16" fill="#d63031" font-weight="bold" text-anchor="middle">
+    💸 $12/月〜 (Dev/Full seat必須)
+  </text>
+  
+  <rect x="560" y="240" width="480" height="40" fill="#e8f5e8" stroke="#2ed573" stroke-width="2" rx="4"/>
+  <text x="800" y="265" font-family="Arial, sans-serif" font-size="16" fill="#00b894" font-weight="bold" text-anchor="middle">
+    💚 完全無料 (Personal Token のみ)
+  </text>
+  
+  <!-- Row 3: 機能 -->
+  <text x="20" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">機能</text>
+  <rect x="80" y="300" width="440" height="60" fill="#ffebee" stroke="#ff4757" stroke-width="2" rx="4"/>
+  <text x="300" y="325" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    ✅ Design Token抽出
+  </text>
+  <text x="300" y="345" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    ✅ コード生成（制限あり）
+  </text>
+  
+  <rect x="560" y="300" width="480" height="60" fill="#e8f5e8" stroke="#2ed573" stroke-width="2" rx="4"/>
+  <text x="800" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    ✅ Design Token抽出 ✅ 完全なコード生成
+  </text>
+  <text x="800" y="340" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    ✅ 複数フレームワーク対応 ✅ AI連携最適化
+  </text>
+  
+  <!-- Row 4: 制限事項 -->
+  <text x="20" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">制限事項</text>
+  <rect x="80" y="380" width="440" height="60" fill="#ffebee" stroke="#ff4757" stroke-width="2" rx="4"/>
+  <text x="300" y="405" font-family="Arial, sans-serif" font-size="14" fill="#d63031" text-anchor="middle">
+    ❌ デスクトップ版のみ
+  </text>
+  <text x="300" y="425" font-family="Arial, sans-serif" font-size="14" fill="#d63031" text-anchor="middle">
+    ❌ 有料プラン縛り ❌ ベンダーロックイン
+  </text>
+  
+  <rect x="560" y="380" width="480" height="60" fill="#e8f5e8" stroke="#2ed573" stroke-width="2" rx="4"/>
+  <text x="800" y="405" font-family="Arial, sans-serif" font-size="14" fill="#00b894" text-anchor="middle">
+    ✅ どこでも動作 ✅ オープンソース
+  </text>
+  <text x="800" y="425" font-family="Arial, sans-serif" font-size="14" fill="#00b894" text-anchor="middle">
+    ✅ ベンダーロックイン完全回避
+  </text>
+  
+  <!-- Row 5: セットアップ -->
+  <text x="20" y="480" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">セットアップ</text>
+  <rect x="80" y="460" width="440" height="40" fill="#ffebee" stroke="#ff4757" stroke-width="2" rx="4"/>
+  <text x="300" y="485" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    😰 課金 → アカウント設定 → デスクトップ版限定
+  </text>
+  
+  <rect x="560" y="460" width="480" height="40" fill="#e8f5e8" stroke="#2ed573" stroke-width="2" rx="4"/>
+  <text x="800" y="485" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">
+    😊 npx figma-mcp-free init → 5分完了
+  </text>
+  
+  <!-- Bottom message -->
+  <rect x="40" y="520" width="1000" height="60" fill="#2f3542" rx="8"/>
+  <text x="540" y="545" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">
+    💡 同じ技術、同じ機能なのに、なぜお金を払う必要があるのでしょうか？
+  </text>
+  <text x="540" y="565" font-family="Arial, sans-serif" font-size="14" fill="#ffa502" text-anchor="middle">
+    オープンソース技術を囲い込む「ラッピング商法」を止めましょう
+  </text>
+</svg>

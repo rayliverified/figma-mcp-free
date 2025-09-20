@@ -1,0 +1,172 @@
+<svg viewBox="0 0 1080 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="400" fill="transparent"/>
+  
+  <!-- Title -->
+  <text x="540" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2f3542" text-anchor="middle">
+    figma-mcp-free Architecture
+  </text>
+  
+  <!-- Left Section: Figma API -->
+  <rect x="40" y="60" width="200" height="280" fill="#f8f9fa" stroke="#6c5ce7" stroke-width="2" rx="12"/>
+  <rect x="50" y="70" width="180" height="40" fill="#6c5ce7" rx="6"/>
+  <text x="140" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
+    Figma API
+  </text>
+  
+  <!-- Figma API Components -->
+  <rect x="60" y="130" width="160" height="30" fill="#ddd6fe" rx="4"/>
+  <text x="140" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    🔑 Personal Access Token
+  </text>
+  
+  <rect x="60" y="170" width="160" height="30" fill="#ddd6fe" rx="4"/>
+  <text x="140" y="190" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    📁 Files & Components API
+  </text>
+  
+  <rect x="60" y="210" width="160" height="30" fill="#ddd6fe" rx="4"/>
+  <text x="140" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    🎨 Design Token API
+  </text>
+  
+  <rect x="60" y="250" width="160" height="30" fill="#ddd6fe" rx="4"/>
+  <text x="140" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    🖼️ Assets Export API
+  </text>
+  
+  <text x="140" y="310" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">
+    💚 100% Free
+  </text>
+  <text x="140" y="325" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">
+    Read-only is enough
+  </text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 200 L 290 200" stroke="#2d3436" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="270" y="190" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">REST</text>
+  
+  <!-- Center Section: figma-mcp-free -->
+  <rect x="300" y="60" width="280" height="280" fill="#f8f9fa" stroke="#00b894" stroke-width="2" rx="12"/>
+  <rect x="310" y="70" width="260" height="40" fill="#00b894" rx="6"/>
+  <text x="440" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
+    figma-mcp-free
+  </text>
+  
+  <!-- CLI Tool -->
+  <rect x="320" y="130" width="100" height="60" fill="#55efc4" rx="6"/>
+  <text x="370" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+    CLI Tool
+  </text>
+  <text x="370" y="165" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    init / sync
+  </text>
+  <text x="370" y="180" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    generate
+  </text>
+  
+  <!-- MCP Server -->
+  <rect x="450" y="130" width="110" height="60" fill="#55efc4" rx="6"/>
+  <text x="505" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+    MCP Server
+  </text>
+  <text x="505" y="165" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    STDIO Protocol
+  </text>
+  <text x="505" y="180" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    Real-time Sync
+  </text>
+  
+  <!-- Design Token Generator -->
+  <rect x="320" y="210" width="100" height="60" fill="#55efc4" rx="6"/>
+  <text x="370" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+    Token Gen
+  </text>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    W3C Standard
+  </text>
+  <text x="370" y="260" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    CSS/Tailwind
+  </text>
+  
+  <!-- Code Generator -->
+  <rect x="450" y="210" width="110" height="60" fill="#55efc4" rx="6"/>
+  <text x="505" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+    Code Gen
+  </text>
+  <text x="505" y="245" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    React/Vue/Svelte
+  </text>
+  <text x="505" y="260" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">
+    TypeScript Support
+  </text>
+  
+  <text x="440" y="300" font-family="Arial, sans-serif" font-size="10" fill="#00b894" text-anchor="middle">
+    ⚡ Open Source
+  </text>
+  <text x="440" y="315" font-family="Arial, sans-serif" font-size="10" fill="#00b894" text-anchor="middle">
+    🚀 Free & Unlimited
+  </text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 590 200 L 630 200" stroke="#2d3436" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="610" y="190" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">MCP</text>
+  
+  <!-- Right Section: User Environment -->
+  <rect x="640" y="60" width="200" height="280" fill="#f8f9fa" stroke="#fd79a8" stroke-width="2" rx="12"/>
+  <rect x="650" y="70" width="180" height="40" fill="#fd79a8" rx="6"/>
+  <text x="740" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
+    Dev Environment
+  </text>
+  
+  <!-- Claude Code -->
+  <rect x="660" y="130" width="160" height="30" fill="#fab1e4" rx="4"/>
+  <text x="740" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    🤖 Claude Code
+  </text>
+  
+  <!-- Codex -->
+  <rect x="660" y="170" width="160" height="30" fill="#fab1e4" rx="4"/>
+  <text x="740" y="190" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    📝 Claude Codex
+  </text>
+  
+  <!-- Cursor -->
+  <rect x="660" y="210" width="160" height="30" fill="#fab1e4" rx="4"/>
+  <text x="740" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    💻 Cursor IDE
+  </text>
+  
+  <!-- Local Projects -->
+  <rect x="660" y="250" width="160" height="30" fill="#fab1e4" rx="4"/>
+  <text x="740" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
+    📁 Local Projects
+  </text>
+  
+  <text x="740" y="310" font-family="Arial, sans-serif" font-size="10" fill="#fd79a8" text-anchor="middle">
+    🎯 AI Integration Ready
+  </text>
+  <text x="740" y="325" font-family="Arial, sans-serif" font-size="10" fill="#fd79a8" text-anchor="middle">
+    Works Anywhere
+  </text>
+  
+  <!-- Arrow 3 (Feedback loop) -->
+  <path d="M 630 240 L 590 240" stroke="#636e72" stroke-width="1" stroke-dasharray="3,3" fill="none" marker-end="url(#arrowhead-small)"/>
+  <text x="610" y="255" font-family="Arial, sans-serif" font-size="9" fill="#636e72" text-anchor="middle">feedback</text>
+  
+  <!-- Bottom banner -->
+  <rect x="40" y="360" width="800" height="30" fill="#2f3542" rx="6"/>
+  <text x="440" y="380" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">
+    💡 Personal Access Token → Complete Dev Mode+ features for FREE
+  </text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d3436"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 8 2.5, 0 5" fill="#636e72"/>
+    </marker>
+  </defs>
+</svg>
