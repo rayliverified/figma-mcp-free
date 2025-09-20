@@ -1,4 +1,13 @@
 <svg viewBox="0 0 1080 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d3436"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 8 2.5, 0 5" fill="#636e72"/>
+    </marker>
+  </defs>
+  
   <!-- Background -->
   <rect width="1080" height="400" fill="transparent"/>
   
@@ -17,26 +26,26 @@
   <!-- Figma API Components -->
   <rect x="60" y="130" width="160" height="30" fill="#ddd6fe" rx="4"/>
   <text x="140" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    📊 Personal Access Token
+    Personal Access Token
   </text>
   
   <rect x="60" y="170" width="160" height="30" fill="#ddd6fe" rx="4"/>
   <text x="140" y="190" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    📁 Files & Components API
+    Files &amp; Components API
   </text>
   
   <rect x="60" y="210" width="160" height="30" fill="#ddd6fe" rx="4"/>
   <text x="140" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    🎨 Design Token API
+    Design Token API
   </text>
   
   <rect x="60" y="250" width="160" height="30" fill="#ddd6fe" rx="4"/>
   <text x="140" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    🖼️ Assets Export API
+    Assets Export API
   </text>
   
   <text x="140" y="310" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">
-    💚 100% 無料
+    100% 無料
   </text>
   <text x="140" y="325" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">
     読み取り専用で十分
@@ -102,10 +111,10 @@
   </text>
   
   <text x="440" y="300" font-family="Arial, sans-serif" font-size="10" fill="#00b894" text-anchor="middle">
-    ⚡ オープンソース
+    オープンソース
   </text>
   <text x="440" y="315" font-family="Arial, sans-serif" font-size="10" fill="#00b894" text-anchor="middle">
-    🚀 無料・無制限
+    無料・無制限
   </text>
   
   <!-- Arrow 2 -->
@@ -122,29 +131,29 @@
   <!-- Claude Code -->
   <rect x="660" y="130" width="160" height="30" fill="#fab1e4" rx="4"/>
   <text x="740" y="150" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    🤖 Claude Code
+    Claude Code
   </text>
   
   <!-- Codex -->
   <rect x="660" y="170" width="160" height="30" fill="#fab1e4" rx="4"/>
   <text x="740" y="190" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    📝 Claude Codex
+    Claude Codex
   </text>
   
   <!-- Cursor -->
   <rect x="660" y="210" width="160" height="30" fill="#fab1e4" rx="4"/>
   <text x="740" y="230" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    💻 Cursor
+    Cursor
   </text>
   
   <!-- Local Projects -->
   <rect x="660" y="250" width="160" height="30" fill="#fab1e4" rx="4"/>
   <text x="740" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">
-    📁 ローカルプロジェクト
+    ローカルプロジェクト
   </text>
   
   <text x="740" y="310" font-family="Arial, sans-serif" font-size="10" fill="#fd79a8" text-anchor="middle">
-    🎯 AI連携最適化
+    AI連携最適化
   </text>
   <text x="740" y="325" font-family="Arial, sans-serif" font-size="10" fill="#fd79a8" text-anchor="middle">
     どこでも動作
@@ -157,16 +166,6 @@
   <!-- Bottom banner -->
   <rect x="40" y="360" width="800" height="30" fill="#2f3542" rx="6"/>
   <text x="440" y="380" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">
-    💡 Personal Access Token → 完全無料のDev Mode以上の機能
+    Personal Access Token → 完全無料のDev Mode以上の機能
   </text>
-  
-  <!-- Arrow definitions -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#2d3436"/>
-    </marker>
-    <marker id="arrowhead-small" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
-      <polygon points="0 0, 8 2.5, 0 5" fill="#636e72"/>
-    </marker>
-  </defs>
 </svg>
