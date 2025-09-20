@@ -5,18 +5,69 @@ import { FigmaClient } from "@figma-mcp-free/figma-client";
 import { toDesignTokens } from "@figma-mcp-free/design-tokens";
 import { generateCode, type Framework } from "@figma-mcp-free/code-generator";
 import { readFileSync } from "node:fs";
+import { createInterface } from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 const program = new Command();
+
+const maskToken = (token: string): string => (token.length <= 8 ? "****" : `${token.slice(0, 4)}...${token.slice(-4)}`);
 program
   .name("figma-mcp-free")
   .description("CLI for figma-mcp-free")
   .version("0.1.0");
 
 program.command("init")
-  .description("Initialize figma-mcp-free and prompt for token")
-  .action(async () => {
-    // eslint-disable-next-line no-console
-    console.log("Init wizard TBD (store FIGMA_TOKEN)");
+  .description("Initialize figma-mcp-free and store your Figma Personal Access Token")
+  .option("--token <token>", "Provide the Figma token non-interactively")
+  .action(async (opts: { token?: string }) => {
+    const existing = readConfig().token;
+    let token: string | undefined = opts.token?.trim();
+
+    if (!token) {
+      const envToken = process.env.FIGMA_TOKEN?.trim();
+      if (envToken) token = envToken;
+    }
+
+    if (!token && input.isTTY && output.isTTY) {
+      const rl = createInterface({ input, output, terminal: true });
+      try {
+        if (existing) {
+          console.log(`Existing token detected (${maskToken(existing)}). Press enter to keep it or paste a new token.`);
+        }
+        const prompt = existing
+          ? "Figma Personal Access Token (leave blank to keep current): "
+          : "Figma Personal Access Token (starts with figd_): ";
+        const answer = await rl.question(prompt);
+        const trimmed = answer.trim();
+        if (trimmed) token = trimmed;
+        else if (existing) token = existing;
+      } finally {
+        rl.close();
+      }
+    }
+
+    if (!token) {
+      console.error("No token provided. Pass --token, set FIGMA_TOKEN, or run in an interactive terminal.");
+      process.exit(1);
+    }
+
+    token = token.trim();
+    if (!token) {
+      console.error("Provided token was empty after trimming. Aborting.");
+      process.exit(1);
+    }
+
+    writeConfig({ token });
+
+    if (existing && existing === token) {
+      console.log(`Token unchanged. Config remains at ${getConfigPath()}`);
+    } else {
+      console.log(`Saved token (${maskToken(token)}) to ${getConfigPath()}`);
+    }
+
+    if (!process.env.FIGMA_TOKEN) {
+      console.log("Tip: export FIGMA_TOKEN=<token> to override per-session without touching the config file.");
+    }
   });
 
 program.command("generate")
@@ -29,7 +80,7 @@ program.command("generate")
   .action(async (fileId: string, nodeId: string, opts: { framework: Framework; useTokens?: string; varPrefix?: string }) => {
     const token = getCfgToken();
     if (!token) {
-      console.error("Token not set. Use: figma-mcp-free config set token <TOKEN>");
+      console.error("Token not set. Run: figma-mcp-free init (or export FIGMA_TOKEN).");
       process.exit(1);
     }
     const client = new FigmaClient({ token });
@@ -117,7 +168,7 @@ program.command("export-tokens")
   .action(async (fileId: string) => {
     const token = getCfgToken();
     if (!token) {
-      console.error("Token not set. Use: figma-mcp-free config set token <TOKEN>");
+      console.error("Token not set. Run: figma-mcp-free init (or export FIGMA_TOKEN).");
       process.exit(1);
     }
     const client = new FigmaClient({ token });
@@ -135,7 +186,7 @@ program.command("components")
   .action(async (fileId: string, opts: { query?: string; limit?: number; json?: boolean }) => {
     const token = getCfgToken();
     if (!token) {
-      console.error("Token not set. Use: figma-mcp-free config set token <TOKEN>");
+      console.error("Token not set. Run: figma-mcp-free init (or export FIGMA_TOKEN).");
       process.exit(1);
     }
     const client = new FigmaClient({ token });

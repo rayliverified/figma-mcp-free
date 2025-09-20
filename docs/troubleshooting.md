@@ -11,7 +11,7 @@
    - File metadata
    - Current user
    - Library content
-2. Re-run `pnpm --filter figma-mcp-free dev -- config set token <FIGMA_TOKEN>` or export `FIGMA_TOKEN` before launching the CLI/server.
+2. Re-run `pnpm --filter figma-mcp-free dev -- init` (or `-- init --token <FIGMA_TOKEN>`) or export `FIGMA_TOKEN` before launching the CLI/server.
 
 ## 2. Rate limits (429)
 

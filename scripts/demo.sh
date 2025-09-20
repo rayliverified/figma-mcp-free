@@ -16,7 +16,7 @@ pnpm install
 pnpm -r build
 
 echo "[2/6] Save token"
-pnpm --filter figma-mcp-free dev -- config set token "$FIGMA_TOKEN" >/dev/null
+pnpm --filter figma-mcp-free dev -- init --token "$FIGMA_TOKEN" >/dev/null
 pnpm --filter figma-mcp-free dev -- config get token
 
 echo "[3/6] List components (filtered example)"
@@ -34,4 +34,3 @@ echo "[6/6] Generate (with tokens)"
 pnpm --filter figma-mcp-free dev -- generate "$FILE_ID" "$NODE_ID" --framework react --use-tokens demo-out/tokens.json > demo-out/out-with-tokens.jsx
 
 echo "Done. See demo-out/ for results."
-

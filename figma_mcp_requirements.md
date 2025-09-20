@@ -123,7 +123,7 @@ interface FigmaMCPServer {
 ```bash
 # セットアップ
 figma-mcp-free init
-figma-mcp-free config set token <FIGMA_TOKEN>
+figma-mcp-free init --token <FIGMA_TOKEN>
 
 # 機能実行
 figma-mcp-free sync <FILE_ID>

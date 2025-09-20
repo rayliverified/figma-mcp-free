@@ -8,7 +8,7 @@ Quick Start (from clone)
 - Star this repo to support the project!
 - Clone: `git clone https://github.com/superdoccimo/figma-mcp-free.git`
 - Install: `cd figma-mcp-free && pnpm install && pnpm -r build`
-- Set token: `pnpm --filter figma-mcp-free dev -- config set token <FIGMA_TOKEN>`
+- Set token: `pnpm --filter figma-mcp-free dev -- init`
 - Find components: `pnpm --filter figma-mcp-free dev -- components <FILE_ID> --query Button --limit 5`
 - Generate (no tokens): `pnpm --filter figma-mcp-free dev -- generate <FILE_ID> <NODE_ID> --framework react > out-no-tokens.jsx`
 - Export tokens: `pnpm --filter figma-mcp-free dev -- export-tokens <FILE_ID> > tokens.json`
@@ -48,7 +48,7 @@ Getting started and roadmap: see `figma_mcp_requirements.md` and `docs/`.
 
 ### Visual comparison
 
-![Comparison of enclosure strategies highlighting community alternatives](figma_comparison_chart_en.svg)
+![Comparison of enclosure strategies highlighting community alternatives](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_comparison_chart_en.svg)
 
 | Company/Product | Enclosure strategy | Community alternative |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ Even if you need write access, there are free-tier detours:
 
 ### Architecture overview
 
-![Architecture diagram showing Claude/Cursor clients talking to the figma-mcp-free server and Figma API](figma_architecture_diagram_en.svg)
+![Architecture diagram showing Claude/Cursor clients talking to the figma-mcp-free server and Figma API](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_architecture_diagram_en.svg)
 
 Basic usage (client only)
 - Set `FIGMA_TOKEN` in your environment (or wire into the server/CLI later)
@@ -104,7 +104,7 @@ Run MCP Server (stdio)
 - Start server: `node packages/mcp-server/dist/index.js`
 
 CLI token setup
-- Save token locally: `pnpm --filter figma-mcp-free dev -- config set token <FIGMA_TOKEN>`
+- Save token locally: `pnpm --filter figma-mcp-free dev -- init` (or `-- init --token <FIGMA_TOKEN>` for CI)
 - Check status: `pnpm --filter figma-mcp-free dev -- config get token`
 - If `FIGMA_TOKEN` is not present in the environment, the server falls back to the local config (`@figma-mcp-free/config`).
 
@@ -186,7 +186,7 @@ export function ButtonPrimary() {
 
 ### End-to-end workflow
 
-![Timeline diagram illustrating setup, design token export, component generation, and deployment flow](figma_workflow_timeline_en.svg)
+![Timeline diagram illustrating setup, design token export, component generation, and deployment flow](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_workflow_timeline_en.svg)
 
 Community
 - File an issue if you hit a missing endpoint or authenticator gap.

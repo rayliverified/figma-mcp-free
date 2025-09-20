@@ -15,7 +15,7 @@ pnpm -r build
 ```
 - Configure token (masked when reading back)
 ```
-pnpm --filter figma-mcp-free dev -- config set token <FIGMA_TOKEN>
+pnpm --filter figma-mcp-free dev -- init
 pnpm --filter figma-mcp-free dev -- config get token
 ```
 - Explore components
@@ -41,4 +41,3 @@ Offline fallback
 ```
 pnpm --filter figma-mcp-free dev -- generate-from-json ./examples/sample-node.json --framework react --use-tokens ./examples/sample-tokens.json
 ```
-

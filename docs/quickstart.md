@@ -16,8 +16,10 @@ Use Node.js 18+ and ensure `pnpm` is available (install with `npm install -g pnp
 You can export a Personal Access Token from the Figma settings screen. Once copied, store it with the CLI so both the server and the CLI tools can find it later.
 
 ```bash
-pnpm --filter figma-mcp-free dev -- config set token <FIGMA_TOKEN>
+pnpm --filter figma-mcp-free dev -- init
 ```
+
+Run non-interactively (CI/scripts) with `pnpm --filter figma-mcp-free dev -- init --token <FIGMA_TOKEN>`.
 
 Verify the persisted config:
 
