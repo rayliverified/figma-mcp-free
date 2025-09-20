@@ -190,7 +190,7 @@ Webフック - リアルタイム同期機能（将来実装予定）
 
 ### 囲い込み比較チャート
 
-![Comparison chart for enclosure strategies](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/jp/assets/figma_comparison_chart.svg)
+![Comparison chart for enclosure strategies](./assets/figma_comparison_chart.svg)
 
 ### **Personal Access Token（無料）**
 
@@ -304,7 +304,7 @@ claude mcp add figma --scope user \
 
 ### アーキテクチャ全体像
 
-![Architecture diagram for figma-mcp-free](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/jp/assets/figma_architecture_diagram.svg)
+![Architecture diagram for figma-mcp-free](./assets/figma_architecture_diagram.svg)
 
 確認：
 
@@ -791,7 +791,7 @@ module.exports = {
 
 ### ワークフロータイムライン
 
-![Workflow timeline diagram for figma-mcp-free adoption](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/jp/assets/figma_workflow_timeline.svg)
+![Workflow timeline diagram for figma-mcp-free adoption](./assets/figma_workflow_timeline.svg)
 
 **記事が役立った場合：**
 

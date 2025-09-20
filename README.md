@@ -48,7 +48,7 @@ Getting started and roadmap: see `figma_mcp_requirements.md` and `docs/`.
 
 ### Visual comparison
 
-![Comparison of enclosure strategies highlighting community alternatives](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_comparison_chart_en.svg)
+![Comparison of enclosure strategies highlighting community alternatives](figma_comparison_chart_en.svg)
 
 | Company/Product | Enclosure strategy | Community alternative |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ Even if you need write access, there are free-tier detours:
 
 ### Architecture overview
 
-![Architecture diagram showing Claude/Cursor clients talking to the figma-mcp-free server and Figma API](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_architecture_diagram_en.svg)
+![Architecture diagram showing Claude/Cursor clients talking to the figma-mcp-free server and Figma API](figma_architecture_diagram_en.svg)
 
 Basic usage (client only)
 - Set `FIGMA_TOKEN` in your environment (or wire into the server/CLI later)
@@ -186,7 +186,7 @@ export function ButtonPrimary() {
 
 ### End-to-end workflow
 
-![Timeline diagram illustrating setup, design token export, component generation, and deployment flow](https://raw.githubusercontent.com/superdoccimo/figma-mcp-free/main/figma_workflow_timeline_en.svg)
+![Timeline diagram illustrating setup, design token export, component generation, and deployment flow](figma_workflow_timeline_en.svg)
 
 Community
 - File an issue if you hit a missing endpoint or authenticator gap.
