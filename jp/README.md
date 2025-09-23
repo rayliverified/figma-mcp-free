@@ -487,9 +487,9 @@ codex
 /model gpt-5-codex
 
 # Figmaデザインの実装依頼
-Implement this Figma design as a React component:
+このFigmaデザインをReactコンポーネントとして実装してください：
 [Figmaリンク]
-Use the MCP server to get design tokens and layout information.
+MCPサーバーを使用してデザイントークンとレイアウト情報を取得してください。
 ```
 
 以下のように伝えるといいかもしれません。実際にcodex CLIに聞いた内容が以下です。
@@ -706,7 +706,7 @@ my-project/
 │   └── components/     # 生成されたコンポーネント
 └── figma-designs/      # デザインのリンクや情報
 
-Note: Codex config is in ~/.codex/ (home directory)
+注意: Codexの設定は ~/.codex/ （ホームディレクトリ）に配置します
 ```
 
 ### 2\. デザイントークンの活用
@@ -746,7 +746,7 @@ node_modules/
 .claude/
 
 # トークンは絶対にコミットしない！
-# Note: .codex/ is not listed as it should be in home directory (~/.codex/)
+# 注意: .codex/ はホームディレクトリ (~/.codex/) に配置するため、ここには記載していません
 
 # 🚨 重要セキュリティ注意事項:
 # - 公開リポジトリのIssue/PRに実トークンを貼らない
